@@ -23,6 +23,18 @@ public class Challenge extends Head {
 	}
 
 	public void loop() {
-
+		driveDirect(200,200);
+if(isBumpedRight()) {
+	driveDirect(-200,-200);
+	sleep(1000);
+	driveDirect(200,400);
+	sleep(1000);
+	driveDirect(200,200);
+	sleep(18000);
+	driveDirect(-200,-200);
+	sleep(1000);
+	//try to get the robot to hug the sides of the maze 
+	
+}
 	}
 }
